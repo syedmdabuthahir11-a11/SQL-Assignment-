@@ -1,0 +1,16 @@
+create database shopping;
+
+use shopping;
+
+create table shopping(
+    shop_id int primary key,
+    shop_name varchar(20) not null,
+    product_name varchar(20) not null,
+    price decimal(10.00) 
+    );
+    
+    desc shopping;
+    
+    insert into shopping values (1,"Teashop","butter biscuit",10);
+    
+    select * from shopping;
