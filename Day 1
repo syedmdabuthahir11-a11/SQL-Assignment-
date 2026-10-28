@@ -12,5 +12,6 @@ create table shopping(
     desc shopping;
     
     insert into shopping values (1,"Teashop","butter biscuit",10);
+    insert into shopping values (2,"Bakery","Cake",10);
     
     select * from shopping;
