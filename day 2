@@ -1,0 +1,12 @@
+Create table foods(
+    food_id int primary key,
+    food_name varchar(20),
+    food_price float default 10
+    );
+    
+    insert into   foods values(1, "idle", null),(2, "dosa", 250),(3, "pongal", 150),
+    (4, "boori", 100), (5, "curd rice", null);
+    
+    select * from foods;
+    
+    select * from foods where food_price > 100 and food_price < 500;
